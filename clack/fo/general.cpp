@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<list>
 #include<algorithm>
 #include"print.cpp"
@@ -15,19 +15,19 @@ public:
 		return value++;
 	}
 };
-//·Âº¯ÊıÊÇ´«Öµ·½Ê½´«µİµÄ£¬ÓÅµãÊÇ¿ÉÒÔ´«µİ³£Á¿»òÔİÊ±±í´ïÊ½£¬
-//È±µãÎŞ·¨¸Ä±ä·Âº¯ÊıµÄ×´Ì¬
+//ä»¿å‡½æ•°æ˜¯ä¼ å€¼æ–¹å¼ä¼ é€’çš„ï¼Œä¼˜ç‚¹æ˜¯å¯ä»¥ä¼ é€’å¸¸é‡æˆ–æš‚æ—¶è¡¨è¾¾å¼ï¼Œ
+//ç¼ºç‚¹æ— æ³•æ”¹å˜ä»¿å‡½æ•°çš„çŠ¶æ€
 int main01()
 {
 	list<int> coll;
-	//generate_nºÍgenerateËã·¨×÷ÓÃÊÇ²úÉúÊıÖµÒÔ¹©Ğ´ÈëÈº¼¯Ö®ÄÚ
+	//generate_nå’Œgenerateç®—æ³•ä½œç”¨æ˜¯äº§ç”Ÿæ•°å€¼ä»¥ä¾›å†™å…¥ç¾¤é›†ä¹‹å†…
 	generate_n(back_inserter(coll), 9, IntSquence(1));
 	PRINT_ELEMENTS(coll);
 	generate(++coll.begin(), --coll.end(), IntSquence(42));
 	PRINT_ELEMENTS(coll);
 }
 
-//ÎªÁËÄÜÒÔ´«µØÖ··½Ê½´«µİ·Âº¯Êı£¬ĞèÒªÔÚµ÷ÓÃËã·¨Ê±£¬Ã÷±ê·Âº¯ÊıÊ±µØÖ·ĞÍ±ğ
+//ä¸ºäº†èƒ½ä»¥ä¼ åœ°å€æ–¹å¼ä¼ é€’ä»¿å‡½æ•°ï¼Œéœ€è¦åœ¨è°ƒç”¨ç®—æ³•æ—¶ï¼Œæ˜æ ‡ä»¿å‡½æ•°æ—¶åœ°å€å‹åˆ«
 int main()
 {
 	list<int> coll;

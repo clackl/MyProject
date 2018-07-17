@@ -19,8 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="general.cpp" />
-    <ClCompile Include="print.cpp" />
+    <ClInclude Include="algo\algostuff.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="algo\search1.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{769fff4f-c629-4ed4-b0da-63252edc4811}</ProjectGuid>
