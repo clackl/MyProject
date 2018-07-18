@@ -9,7 +9,7 @@ bool checkEven(int elem, bool even) {
 		return elem % 2 == 1;
 	}
 }
-
+//search()算法的第二式，以更复杂非准则来搜寻某个子序列
 int main()
 {
 	vector<int> coll;
@@ -21,30 +21,18 @@ int main()
 	vector<int>::iterator pos;
 	pos = search(coll.begin(), coll.end(),
 		checkEvenArgs, checkEvenArgs + 3, checkEven);
+
+	while (pos != coll.end()) {
+		cout << "subrange found starting with element "
+			<< distance(coll.begin(), pos) + 1 << endl;
+
+		pos = search(++pos, coll.end(), checkEvenArgs, checkEvenArgs + 3,
+			checkEven);
+	}
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//如何在另一个序列中搜寻一个子序列
 int main01()
 {
 	deque<int> coll;

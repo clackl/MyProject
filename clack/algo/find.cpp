@@ -2,6 +2,7 @@
 #include <iterator>
 using namespace std;
 
+//以特殊的搜索准则来搜寻某个元素
 int main()
 {
 	vector<int> coll;
@@ -28,7 +29,7 @@ int main()
 
 
 
-
+//使用find()来搜寻一个子区间，以元素值为4的第一个元素开始，以元素值为4的第二个元素结束
 int main01()
 {
 	list<int> coll;

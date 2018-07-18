@@ -9,6 +9,7 @@
 #include <algorithm>
 #include <functional>
 #include <numeric>
+#include <iterator>
 
 template <class T>
 inline void PRINT_ELEMENTS(const T& coll, const char* optcstr = "")
