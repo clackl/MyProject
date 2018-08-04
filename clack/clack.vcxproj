@@ -19,10 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="algo\algostuff.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="algo\partsum1.cpp" />
+    <ClCompile Include="io1.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{769fff4f-c629-4ed4-b0da-63252edc4811}</ProjectGuid>

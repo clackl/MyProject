@@ -11,5 +11,10 @@ int main()
 	partial_sum(coll.begin(), coll.end(), ostream_iterator<int>(cout, " "));
 	cout << endl;
 
-	partial_sum(coll.begin(),coll.end(),ostream_iterator<int>())
+	partial_sum(coll.begin(), coll.end(), ostream_iterator<int>(cout, " "),multiplies<int>());
+	cout << endl;
+	                       
+
+
+
 }
