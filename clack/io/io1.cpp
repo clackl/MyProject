@@ -3,7 +3,7 @@
 #include <cstdlib>
 using namespace std;
 
-int main()
+int io1()
 {
 	double x, y;
 	cout << "Multiplication of two floating point values" << endl;
@@ -21,5 +21,5 @@ int main()
 	}
 	cout << x << " times " << y << " equals " << x * y << endl;
 
-	
+	return 0;
 }

@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="io1.cpp" />
+    <ClInclude Include="defalloc.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{769fff4f-c629-4ed4-b0da-63252edc4811}</ProjectGuid>
